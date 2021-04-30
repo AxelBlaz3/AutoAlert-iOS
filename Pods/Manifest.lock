@@ -1,0 +1,16 @@
+PODS:
+  - SmartGauge (0.6.3)
+
+DEPENDENCIES:
+  - SmartGauge
+
+SPEC REPOS:
+  trunk:
+    - SmartGauge
+
+SPEC CHECKSUMS:
+  SmartGauge: a6a0a986ac8f4e0afe4d0415b711c5692fd65f7e
+
+PODFILE CHECKSUM: d73b778d6db092909b15d445cb155f8c7e59bd52
+
+COCOAPODS: 1.10.1

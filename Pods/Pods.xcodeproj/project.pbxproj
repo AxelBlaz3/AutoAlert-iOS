@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C29AD0885D6A1E3B63F834B84C2FD8F /* SGTickValuesLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98122D0A6EE5E2B18A58503EB68B7677 /* SGTickValuesLayer.swift */; };
+		2F1E1DD662973A5316376D0467647A93 /* SGGaugeValueLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80C8B9404DCFC87E56C0FDA40E58E18 /* SGGaugeValueLayer.swift */; };
+		339885AD8D1B45D0BD17D6F93E7E334D /* SmartGauge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C916D712B4D78AE21E96CFC28371D1 /* SmartGauge-dummy.m */; };
+		3BA0B9900F059FFE08E75A84DA1F7341 /* SmartGauge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF0041E4EE5D7DFA55C7782D943ABA8 /* SmartGauge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E5A57AE2731709DFD475386A2CC272D /* SGTrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A79382EF6255A0C7B4B3B3A166103 /* SGTrackLayer.swift */; };
+		68164A37790CC507A2C59A8D73989577 /* SGBaseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31421BBFA2BC68C8DE6C89C352D1F12 /* SGBaseLayer.swift */; };
+		6F4C706DABD7B130AB0574654BE1E34D /* Pods-AutoAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E274CE76BE72E1E0DB358FC1ED10CA2 /* Pods-AutoAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E78D294E21A1BE1F6BB8BC9B49476F1 /* Pods-AutoAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D92198839C34221137621118CE193030 /* Pods-AutoAlert-dummy.m */; };
+		8F8758B6D248A97F7522CA5B8F10670C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		926FBAC7CCF2CB2746E0193503F321B3 /* SGTickLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31446755D3611DBA03D213643E02716A /* SGTickLayer.swift */; };
+		A4A6E5A6095946BDA5C4B5650A61D31A /* SmartGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A814D151508665C785C36039C17787 /* SmartGauge.swift */; };
+		F7B949730C501230356D5AAE87FDBF3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FBBD9063ABC43CD9DCDCD57656831F18 /* SGHandleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CC51CDA12070D88F062A0C2F260A0 /* SGHandleLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2697DA56AFB25384778A4431F98B2A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080BF93593DB9E30448D153BD08DEA03;
+			remoteInfo = SmartGauge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0785B1649E9FB6CB5788823508EB7146 /* Pods-AutoAlert-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoAlert-frameworks.sh"; sourceTree = "<group>"; };
+		11F38B98F3AFEAD0FC946C375B6F0D38 /* SmartGauge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartGauge-prefix.pch"; sourceTree = "<group>"; };
+		1F677DB2C7C88B2F08C451C3FD620A72 /* SmartGauge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartGauge.release.xcconfig; sourceTree = "<group>"; };
+		23FC60C2AE24AB51C26EEEED75DE9BFB /* Pods-AutoAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutoAlert.modulemap"; sourceTree = "<group>"; };
+		31446755D3611DBA03D213643E02716A /* SGTickLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGTickLayer.swift; path = SmartGauge/Classes/SGTickLayer.swift; sourceTree = "<group>"; };
+		37A089C3A1FBE02CB1F2FA426AF3DDA8 /* SmartGauge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartGauge.debug.xcconfig; sourceTree = "<group>"; };
+		4836914971DEDF3F1DBCB17174FD548F /* SmartGauge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmartGauge.modulemap; sourceTree = "<group>"; };
+		520D770FF373EFC7FA197298B10BDED9 /* Pods_AutoAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutoAlert.framework; path = "Pods-AutoAlert.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C41C5AA0BA0E909EECBB2146F87B457 /* SmartGauge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SmartGauge-Info.plist"; sourceTree = "<group>"; };
+		67A43296DB9AE8E3AB48207FA30E42CC /* Pods-AutoAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		68A814D151508665C785C36039C17787 /* SmartGauge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartGauge.swift; path = SmartGauge/Classes/SmartGauge.swift; sourceTree = "<group>"; };
+		6D6897A37687988D95D5879E6D3F70C1 /* SmartGauge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmartGauge.framework; path = SmartGauge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E274CE76BE72E1E0DB358FC1ED10CA2 /* Pods-AutoAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoAlert-umbrella.h"; sourceTree = "<group>"; };
+		98122D0A6EE5E2B18A58503EB68B7677 /* SGTickValuesLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGTickValuesLayer.swift; path = SmartGauge/Classes/SGTickValuesLayer.swift; sourceTree = "<group>"; };
+		9A6CC51CDA12070D88F062A0C2F260A0 /* SGHandleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGHandleLayer.swift; path = SmartGauge/Classes/SGHandleLayer.swift; sourceTree = "<group>"; };
+		9BF0041E4EE5D7DFA55C7782D943ABA8 /* SmartGauge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartGauge-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DECD9A5B3B0254259350F92136A7713 /* Pods-AutoAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoAlert.release.xcconfig"; sourceTree = "<group>"; };
+		A8C916D712B4D78AE21E96CFC28371D1 /* SmartGauge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartGauge-dummy.m"; sourceTree = "<group>"; };
+		C31421BBFA2BC68C8DE6C89C352D1F12 /* SGBaseLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGBaseLayer.swift; path = SmartGauge/Classes/SGBaseLayer.swift; sourceTree = "<group>"; };
+		C80C8B9404DCFC87E56C0FDA40E58E18 /* SGGaugeValueLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGGaugeValueLayer.swift; path = SmartGauge/Classes/SGGaugeValueLayer.swift; sourceTree = "<group>"; };
+		D92198839C34221137621118CE193030 /* Pods-AutoAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoAlert-dummy.m"; sourceTree = "<group>"; };
+		E1012E2D2F5F16A772271B88D0FFE16A /* Pods-AutoAlert-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoAlert-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F57E9A79A2CF4E2D2E2C0534119175A3 /* Pods-AutoAlert-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoAlert-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC0A79382EF6255A0C7B4B3B3A166103 /* SGTrackLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGTrackLayer.swift; path = SmartGauge/Classes/SGTrackLayer.swift; sourceTree = "<group>"; };
+		FC3865B44927DBA3E2CA040ABCFE2CD0 /* Pods-AutoAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoAlert-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3799275DFB9A57C82180887EB9280647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B949730C501230356D5AAE87FDBF3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05E1BFD5FBC82ED363F4B9C98654855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8758B6D248A97F7522CA5B8F10670C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FBC66C5AD62EB493508E1678445A2E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED622791BEA75748CB45D61920941C2F /* Pods-AutoAlert */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E1ACBF1723B13541BBCD4CE10C2B30C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520D770FF373EFC7FA197298B10BDED9 /* Pods_AutoAlert.framework */,
+				6D6897A37687988D95D5879E6D3F70C1 /* SmartGauge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9146FD844E416D23F24A1E140511529C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4836914971DEDF3F1DBCB17174FD548F /* SmartGauge.modulemap */,
+				A8C916D712B4D78AE21E96CFC28371D1 /* SmartGauge-dummy.m */,
+				5C41C5AA0BA0E909EECBB2146F87B457 /* SmartGauge-Info.plist */,
+				11F38B98F3AFEAD0FC946C375B6F0D38 /* SmartGauge-prefix.pch */,
+				9BF0041E4EE5D7DFA55C7782D943ABA8 /* SmartGauge-umbrella.h */,
+				37A089C3A1FBE02CB1F2FA426AF3DDA8 /* SmartGauge.debug.xcconfig */,
+				1F677DB2C7C88B2F08C451C3FD620A72 /* SmartGauge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SmartGauge";
+			sourceTree = "<group>";
+		};
+		C6CACBE6057350A2DD9AA9F45A8C00A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E7516B9ECA2EE9FBE6C88E12144B8 /* SmartGauge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C6CACBE6057350A2DD9AA9F45A8C00A4 /* Pods */,
+				2E1ACBF1723B13541BBCD4CE10C2B30C /* Products */,
+				1FBC66C5AD62EB493508E1678445A2E9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED622791BEA75748CB45D61920941C2F /* Pods-AutoAlert */ = {
+			isa = PBXGroup;
+			children = (
+				23FC60C2AE24AB51C26EEEED75DE9BFB /* Pods-AutoAlert.modulemap */,
+				E1012E2D2F5F16A772271B88D0FFE16A /* Pods-AutoAlert-acknowledgements.markdown */,
+				F57E9A79A2CF4E2D2E2C0534119175A3 /* Pods-AutoAlert-acknowledgements.plist */,
+				D92198839C34221137621118CE193030 /* Pods-AutoAlert-dummy.m */,
+				0785B1649E9FB6CB5788823508EB7146 /* Pods-AutoAlert-frameworks.sh */,
+				FC3865B44927DBA3E2CA040ABCFE2CD0 /* Pods-AutoAlert-Info.plist */,
+				7E274CE76BE72E1E0DB358FC1ED10CA2 /* Pods-AutoAlert-umbrella.h */,
+				67A43296DB9AE8E3AB48207FA30E42CC /* Pods-AutoAlert.debug.xcconfig */,
+				9DECD9A5B3B0254259350F92136A7713 /* Pods-AutoAlert.release.xcconfig */,
+			);
+			name = "Pods-AutoAlert";
+			path = "Target Support Files/Pods-AutoAlert";
+			sourceTree = "<group>";
+		};
+		FB8E7516B9ECA2EE9FBE6C88E12144B8 /* SmartGauge */ = {
+			isa = PBXGroup;
+			children = (
+				C31421BBFA2BC68C8DE6C89C352D1F12 /* SGBaseLayer.swift */,
+				C80C8B9404DCFC87E56C0FDA40E58E18 /* SGGaugeValueLayer.swift */,
+				9A6CC51CDA12070D88F062A0C2F260A0 /* SGHandleLayer.swift */,
+				31446755D3611DBA03D213643E02716A /* SGTickLayer.swift */,
+				98122D0A6EE5E2B18A58503EB68B7677 /* SGTickValuesLayer.swift */,
+				FC0A79382EF6255A0C7B4B3B3A166103 /* SGTrackLayer.swift */,
+				68A814D151508665C785C36039C17787 /* SmartGauge.swift */,
+				9146FD844E416D23F24A1E140511529C /* Support Files */,
+			);
+			name = SmartGauge;
+			path = SmartGauge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E4D50448045FB5612FA1CE42ABF9FC64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA0B9900F059FFE08E75A84DA1F7341 /* SmartGauge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F497B9E64821BB5A1BF01200D2C9AEEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4C706DABD7B130AB0574654BE1E34D /* Pods-AutoAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		080BF93593DB9E30448D153BD08DEA03 /* SmartGauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FAF1229786B70143E53F563EC83803 /* Build configuration list for PBXNativeTarget "SmartGauge" */;
+			buildPhases = (
+				E4D50448045FB5612FA1CE42ABF9FC64 /* Headers */,
+				CB9F0A1EF9BCDF5F325DFBF1C99F09EA /* Sources */,
+				3799275DFB9A57C82180887EB9280647 /* Frameworks */,
+				BEBAB636F5E809E62626619E9C545936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartGauge;
+			productName = SmartGauge;
+			productReference = 6D6897A37687988D95D5879E6D3F70C1 /* SmartGauge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED7CF454EDD18CB6E7C6FB48E043B969 /* Pods-AutoAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409FB1FB7E5FA48B5E5C8D92B7FFAE45 /* Build configuration list for PBXNativeTarget "Pods-AutoAlert" */;
+			buildPhases = (
+				F497B9E64821BB5A1BF01200D2C9AEEC /* Headers */,
+				F1F4EF2CF11E0CC277522DD4D6DE552B /* Sources */,
+				F05E1BFD5FBC82ED363F4B9C98654855 /* Frameworks */,
+				7A64EBD937A9E4DBBD2261F5FB3D4D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214D8F48B8DFFBC8F449B0B4FAA29874 /* PBXTargetDependency */,
+			);
+			name = "Pods-AutoAlert";
+			productName = "Pods-AutoAlert";
+			productReference = 520D770FF373EFC7FA197298B10BDED9 /* Pods_AutoAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2E1ACBF1723B13541BBCD4CE10C2B30C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7CF454EDD18CB6E7C6FB48E043B969 /* Pods-AutoAlert */,
+				080BF93593DB9E30448D153BD08DEA03 /* SmartGauge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A64EBD937A9E4DBBD2261F5FB3D4D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBAB636F5E809E62626619E9C545936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9F0A1EF9BCDF5F325DFBF1C99F09EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68164A37790CC507A2C59A8D73989577 /* SGBaseLayer.swift in Sources */,
+				2F1E1DD662973A5316376D0467647A93 /* SGGaugeValueLayer.swift in Sources */,
+				FBBD9063ABC43CD9DCDCD57656831F18 /* SGHandleLayer.swift in Sources */,
+				926FBAC7CCF2CB2746E0193503F321B3 /* SGTickLayer.swift in Sources */,
+				0C29AD0885D6A1E3B63F834B84C2FD8F /* SGTickValuesLayer.swift in Sources */,
+				3E5A57AE2731709DFD475386A2CC272D /* SGTrackLayer.swift in Sources */,
+				339885AD8D1B45D0BD17D6F93E7E334D /* SmartGauge-dummy.m in Sources */,
+				A4A6E5A6095946BDA5C4B5650A61D31A /* SmartGauge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F4EF2CF11E0CC277522DD4D6DE552B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E78D294E21A1BE1F6BB8BC9B49476F1 /* Pods-AutoAlert-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		214D8F48B8DFFBC8F449B0B4FAA29874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartGauge;
+			target = 080BF93593DB9E30448D153BD08DEA03 /* SmartGauge */;
+			targetProxy = 2697DA56AFB25384778A4431F98B2A0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		855056312F06DB46A44255BA4CC3809B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F677DB2C7C88B2F08C451C3FD620A72 /* SmartGauge.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartGauge/SmartGauge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartGauge/SmartGauge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmartGauge/SmartGauge.modulemap";
+				PRODUCT_MODULE_NAME = SmartGauge;
+				PRODUCT_NAME = SmartGauge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AABE2C6A906FE1D64083006BF4D9C1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A43296DB9AE8E3AB48207FA30E42CC /* Pods-AutoAlert.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoAlert/Pods-AutoAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoAlert/Pods-AutoAlert.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF7948F5256978006C4393AA83DA69F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A089C3A1FBE02CB1F2FA426AF3DDA8 /* SmartGauge.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartGauge/SmartGauge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartGauge/SmartGauge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmartGauge/SmartGauge.modulemap";
+				PRODUCT_MODULE_NAME = SmartGauge;
+				PRODUCT_NAME = SmartGauge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F95E5AF88E24FC28969F4404968D6CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DECD9A5B3B0254259350F92136A7713 /* Pods-AutoAlert.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoAlert/Pods-AutoAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoAlert/Pods-AutoAlert.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409FB1FB7E5FA48B5E5C8D92B7FFAE45 /* Build configuration list for PBXNativeTarget "Pods-AutoAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABE2C6A906FE1D64083006BF4D9C1AB /* Debug */,
+				F95E5AF88E24FC28969F4404968D6CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FAF1229786B70143E53F563EC83803 /* Build configuration list for PBXNativeTarget "SmartGauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7948F5256978006C4393AA83DA69F9 /* Debug */,
+				855056312F06DB46A44255BA4CC3809B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

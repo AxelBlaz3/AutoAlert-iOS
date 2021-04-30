@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255E7D8F2629BB4D00ED3EAD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E7D8E2629BB4D00ED3EAD /* LocationManager.swift */; };
+		25888DBE2639196600B8F050 /* Digital7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25888DBD2639196600B8F050 /* Digital7.ttf */; };
+		2594D8A8262FFAF5007EF84C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2594D8A7262FFAF5007EF84C /* User.swift */; };
+		2594D8AC26315B70007EF84C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2594D8AB26315B70007EF84C /* Constants.swift */; };
+		25964D69263920C2002CA66C /* SmartGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25964D68263920C2002CA66C /* SmartGaugeView.swift */; };
+		25DC85AA262D5A9D00B21B3F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DC85A9262D5A9D00B21B3F /* NotificationManager.swift */; };
+		25DC85AD262D5DB400B21B3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DC85AC262D5DB400B21B3F /* AppDelegate.swift */; };
+		25EF1D6E26294F2B00A30EBB /* AutoAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EF1D6D26294F2B00A30EBB /* AutoAlertApp.swift */; };
+		25EF1D7026294F2B00A30EBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EF1D6F26294F2B00A30EBB /* ContentView.swift */; };
+		25EF1D7226294F2C00A30EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EF1D7126294F2C00A30EBB /* Assets.xcassets */; };
+		25EF1D7526294F2C00A30EBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EF1D7426294F2C00A30EBB /* Preview Assets.xcassets */; };
+		25EF1D7E2629526E00A30EBB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EF1D7D2629526E00A30EBB /* LoginView.swift */; };
+		25EF1D81262953A700A30EBB /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EF1D80262953A700A30EBB /* RegisterView.swift */; };
+		3CE73B47DC4FF6D549BC62E4 /* Pods_AutoAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD130CB400A9AE807FDB95B7 /* Pods_AutoAlert.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00604C648F5A1899A1E5B6AE /* Pods-AutoAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoAlert.release.xcconfig"; path = "Target Support Files/Pods-AutoAlert/Pods-AutoAlert.release.xcconfig"; sourceTree = "<group>"; };
+		07296E7045841201D8C4012D /* Pods-Auto Alert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Alert.debug.xcconfig"; path = "Target Support Files/Pods-Auto Alert/Pods-Auto Alert.debug.xcconfig"; sourceTree = "<group>"; };
+		1593600C8FA44FC44AE1047B /* Pods-AutoAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoAlert.debug.xcconfig"; path = "Target Support Files/Pods-AutoAlert/Pods-AutoAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		1CB9E6DBFAA5D8B0AAE810BC /* Pods-HotCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotCar.release.xcconfig"; path = "Target Support Files/Pods-HotCar/Pods-HotCar.release.xcconfig"; sourceTree = "<group>"; };
+		255E7D8E2629BB4D00ED3EAD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		25888DBD2639196600B8F050 /* Digital7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Digital7.ttf; sourceTree = "<group>"; };
+		2594D8A7262FFAF5007EF84C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2594D8AB26315B70007EF84C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		25964D68263920C2002CA66C /* SmartGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGaugeView.swift; sourceTree = "<group>"; };
+		25DC85A9262D5A9D00B21B3F /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		25DC85AC262D5DB400B21B3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25EF1D6A26294F2B00A30EBB /* AutoAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EF1D6D26294F2B00A30EBB /* AutoAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoAlertApp.swift; sourceTree = "<group>"; };
+		25EF1D6F26294F2B00A30EBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25EF1D7126294F2C00A30EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25EF1D7426294F2C00A30EBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25EF1D7626294F2C00A30EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EF1D7D2629526E00A30EBB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		25EF1D80262953A700A30EBB /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		2BA1AFAB1CC0BC94A4E9B487 /* Pods-Speed Auditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speed Auditor.release.xcconfig"; path = "Target Support Files/Pods-Speed Auditor/Pods-Speed Auditor.release.xcconfig"; sourceTree = "<group>"; };
+		34838F763B6789656E1CCA0B /* Pods-Auto Alert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Alert.release.xcconfig"; path = "Target Support Files/Pods-Auto Alert/Pods-Auto Alert.release.xcconfig"; sourceTree = "<group>"; };
+		AD130CB400A9AE807FDB95B7 /* Pods_AutoAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFD700F12A9A261A09B3C32 /* Pods-HotCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotCar.debug.xcconfig"; path = "Target Support Files/Pods-HotCar/Pods-HotCar.debug.xcconfig"; sourceTree = "<group>"; };
+		E57E65BDBD20D9D02AB06792 /* Pods-Speed Auditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speed Auditor.debug.xcconfig"; path = "Target Support Files/Pods-Speed Auditor/Pods-Speed Auditor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25EF1D6726294F2B00A30EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE73B47DC4FF6D549BC62E4 /* Pods_AutoAlert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25888DBC2639194200B8F050 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				25888DBD2639196600B8F050 /* Digital7.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		25EF1D6126294F2B00A30EBB = {
+			isa = PBXGroup;
+			children = (
+				2594D8AB26315B70007EF84C /* Constants.swift */,
+				25EF1D6C26294F2B00A30EBB /* AutoAlert */,
+				25EF1D6B26294F2B00A30EBB /* Products */,
+				641DA214F5EB403DAAEE8099 /* Pods */,
+				97EF8CD6D2A44872FBA23E53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25EF1D6B26294F2B00A30EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25EF1D6A26294F2B00A30EBB /* AutoAlert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25EF1D6C26294F2B00A30EBB /* AutoAlert */ = {
+			isa = PBXGroup;
+			children = (
+				25888DBC2639194200B8F050 /* fonts */,
+				25EF1D6D26294F2B00A30EBB /* AutoAlertApp.swift */,
+				25EF1D6F26294F2B00A30EBB /* ContentView.swift */,
+				25EF1D7126294F2C00A30EBB /* Assets.xcassets */,
+				25EF1D7626294F2C00A30EBB /* Info.plist */,
+				25EF1D7326294F2C00A30EBB /* Preview Content */,
+				25EF1D7D2629526E00A30EBB /* LoginView.swift */,
+				25EF1D80262953A700A30EBB /* RegisterView.swift */,
+				255E7D8E2629BB4D00ED3EAD /* LocationManager.swift */,
+				25DC85A9262D5A9D00B21B3F /* NotificationManager.swift */,
+				25DC85AC262D5DB400B21B3F /* AppDelegate.swift */,
+				2594D8A7262FFAF5007EF84C /* User.swift */,
+				25964D68263920C2002CA66C /* SmartGaugeView.swift */,
+			);
+			path = AutoAlert;
+			sourceTree = "<group>";
+		};
+		25EF1D7326294F2C00A30EBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25EF1D7426294F2C00A30EBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		641DA214F5EB403DAAEE8099 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E57E65BDBD20D9D02AB06792 /* Pods-Speed Auditor.debug.xcconfig */,
+				2BA1AFAB1CC0BC94A4E9B487 /* Pods-Speed Auditor.release.xcconfig */,
+				BAFD700F12A9A261A09B3C32 /* Pods-HotCar.debug.xcconfig */,
+				1CB9E6DBFAA5D8B0AAE810BC /* Pods-HotCar.release.xcconfig */,
+				07296E7045841201D8C4012D /* Pods-Auto Alert.debug.xcconfig */,
+				34838F763B6789656E1CCA0B /* Pods-Auto Alert.release.xcconfig */,
+				1593600C8FA44FC44AE1047B /* Pods-AutoAlert.debug.xcconfig */,
+				00604C648F5A1899A1E5B6AE /* Pods-AutoAlert.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97EF8CD6D2A44872FBA23E53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD130CB400A9AE807FDB95B7 /* Pods_AutoAlert.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25EF1D6926294F2B00A30EBB /* AutoAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EF1D7926294F2C00A30EBB /* Build configuration list for PBXNativeTarget "AutoAlert" */;
+			buildPhases = (
+				90AF9152912739B178EB0F3B /* [CP] Check Pods Manifest.lock */,
+				25EF1D6626294F2B00A30EBB /* Sources */,
+				25EF1D6726294F2B00A30EBB /* Frameworks */,
+				25EF1D6826294F2B00A30EBB /* Resources */,
+				06D7349CA4A5C9FC6CE610B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoAlert;
+			productName = "Speed Auditor";
+			productReference = 25EF1D6A26294F2B00A30EBB /* AutoAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25EF1D6226294F2B00A30EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					25EF1D6926294F2B00A30EBB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 25EF1D6526294F2B00A30EBB /* Build configuration list for PBXProject "AutoAlert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25EF1D6126294F2B00A30EBB;
+			productRefGroup = 25EF1D6B26294F2B00A30EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25EF1D6926294F2B00A30EBB /* AutoAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25EF1D6826294F2B00A30EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25888DBE2639196600B8F050 /* Digital7.ttf in Resources */,
+				25EF1D7526294F2C00A30EBB /* Preview Assets.xcassets in Resources */,
+				25EF1D7226294F2C00A30EBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06D7349CA4A5C9FC6CE610B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoAlert/Pods-AutoAlert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoAlert/Pods-AutoAlert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoAlert/Pods-AutoAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AF9152912739B178EB0F3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25EF1D6626294F2B00A30EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EF1D7E2629526E00A30EBB /* LoginView.swift in Sources */,
+				2594D8AC26315B70007EF84C /* Constants.swift in Sources */,
+				25DC85AD262D5DB400B21B3F /* AppDelegate.swift in Sources */,
+				25EF1D81262953A700A30EBB /* RegisterView.swift in Sources */,
+				25EF1D7026294F2B00A30EBB /* ContentView.swift in Sources */,
+				25EF1D6E26294F2B00A30EBB /* AutoAlertApp.swift in Sources */,
+				25DC85AA262D5A9D00B21B3F /* NotificationManager.swift in Sources */,
+				255E7D8F2629BB4D00ED3EAD /* LocationManager.swift in Sources */,
+				2594D8A8262FFAF5007EF84C /* User.swift in Sources */,
+				25964D69263920C2002CA66C /* SmartGaugeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25EF1D7726294F2C00A30EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25EF1D7826294F2C00A30EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25EF1D7A26294F2C00A30EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1593600C8FA44FC44AE1047B /* Pods-AutoAlert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"AutoAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = CR9ZDB5UN3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AutoAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wielabs.autoalertapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25EF1D7B26294F2C00A30EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00604C648F5A1899A1E5B6AE /* Pods-AutoAlert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"AutoAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = CR9ZDB5UN3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AutoAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wielabs.autoalertapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25EF1D6526294F2B00A30EBB /* Build configuration list for PBXProject "AutoAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EF1D7726294F2C00A30EBB /* Debug */,
+				25EF1D7826294F2C00A30EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EF1D7926294F2C00A30EBB /* Build configuration list for PBXNativeTarget "AutoAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EF1D7A26294F2C00A30EBB /* Debug */,
+				25EF1D7B26294F2C00A30EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25EF1D6226294F2B00A30EBB /* Project object */;
+}
